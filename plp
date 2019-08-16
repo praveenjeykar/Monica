@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+}
+
+.coupon {
+  border: 3px dotted #bbb;
+  width: 100%;
+  border-radius: 5px;
+ 
+  max-width: 600px;
+}
+
+.container {
+  padding: 1px 16px;
+  background-color: #f1f1f1;
+}
+
+.promo {
+  background: #ccc;
+  padding: 2px;
+}
+
+.expire {
+  color: red;
+}
+</style>
+</head>
+<body>
+  <br>
+    <div class="form-group">
+        <label for="name">Enter the coupon:</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter the coupon">
+       
+        <button type="submit" class="btn btn-primary">Apply</button>
+      </div>
+   <br>
+   <h2>Avaliable Coupons</h2>
+  
+<div class="coupon">
+  <div class="container">
+    <h4>Redmi</h4>
+  </div>
+  <div class="container" style="background-color:white">
+    <h3><b>20% OFF YOUR PURCHASE</b></h3> <button type="submit" class="btn btn-primary">Apply</button>
+    <p>Get more dicounts with Amazon</p>
+  </div>
+  <div class="container">
+    <p>Use Promo Code: <span class="promo">BOH232</span></p>
+    <p class="expire">Expires: Sep 03, 2019</p>
+  </div>
+</div>
+
+<br>
+<div class="coupon">
+    <div class="container">
+      <h4></h4>
+    </div>
+    <div class="container" style="background-color:white">
+      <h3><b>50% OFF YOUR PURCHASE</b></h3> <button type="submit" class="btn btn-primary">Apply</button>
+      <p>Get more dicounts with Amazon</p>
+    </div>
+    <div class="container">
+      <p>Use Promo Code: <span class="promo">WQE232</span></p>
+      <p class="expire">Expires: Aug 23, 2019</p>
+    </div>
+  </div>
+</body>
+</html> 
